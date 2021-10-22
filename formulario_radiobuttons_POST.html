@@ -1,0 +1,25 @@
+<head>
+	<title>pagina formulario</title>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Personal</legend>
+		<form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+			<label for="nom">Nombre<input type="text" name="nombre" id="nom" placeholder="Escriba el nombre aqui"> <br><br>
+			<label for="ape">Apellido<input type="text" name="apellido" id="ape" placeholder="Escriba el apellido aqui"> <br><br>
+			<label for="Correo">Email<input type="text" name="email" id="Correo" placeholder="Escriba el Eamil aqui"> <br><br>
+			
+			<label for="Edad"> Edad <input type="number" id="Edad" name="edad">
+			
+			Edad 2: <br>
+			<input type="radio" id="menor" name="mayormenor" value="MENOR">
+			<label for="menor">Menor</label><br>
+			
+			<input type="radio" id="mayor" name="mayormenor" value="MAYOR">
+			<label for="mayor">Mayor</label><br>
+			
+			<input type="submit" value="enviar">
+		</form>
+	</fieldset>
+</body>
